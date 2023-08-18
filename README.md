@@ -29,10 +29,10 @@ This project extracts user information using Twitter API, uses python to transfo
     ```
     airflow standalone
     ```
-    note down the username and password
+    Note down: the username and password to login the airflow dashboard later.
 3. Create AWS S3 bucket with name 'ami-airflow-etl-test' with EC2.
 4. Create IAM role with name 'ec2_s3_airflow_role'. (note: use underscore instead of hyphens)
-5. Associate it to our EC2 instance.
+5. Associate it to our EC2 instance. Use Action --> security --> Modify IAM Role
 6. Open a new terminal of EC2 instance.
     ```
     cd airflow
