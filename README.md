@@ -9,7 +9,7 @@ This project extracts user information using Twitter API, uses python to transfo
 1. Create an EC2 instace with:
   - name: airflow-test
   - OS: Ubuntu
-  - Instance type: t2.micro
+  - Instance type: t2.medium (free tier - t2.micro runs out of memory while executing the airflow).  
   - key-pair(name, type, file format): airflow-ec2-key, RSA, ".pem" (default)
   - Network settings: check "Allow HTTPS traffic from Internet" and "Allow HTTP traffic from Internet".
   - Now, Launch the EC2 instance
@@ -31,7 +31,7 @@ This project extracts user information using Twitter API, uses python to transfo
     ```
     Note down: the username and password to login the airflow dashboard later.
 3. Create AWS S3 bucket with name 'ami-airflow-etl-test' with EC2.
-4. Create IAM role with name 'ec2_s3_airflow_role'. (note: use underscore instead of hyphens)
+4. Create IAM role with name 'ec2_s3_airflow_role' (note: use underscore instead of hyphens) with S3 full access and EC2 Full Access.
 5. Associate it to our EC2 instance. Go to Action --> security --> Modify IAM Role and Add 'ec2_s3_airflow_role'.
 6. Open a new terminal of EC2 instance.
     ```
