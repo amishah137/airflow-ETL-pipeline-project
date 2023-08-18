@@ -1,5 +1,7 @@
 # airflow-ETL-pipeline-project
 This project extracts user information using Twitter API, uses python to transform data, deploy the code on Airflow/EC2 and save the final result on Amazon S3.
+![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/faeb05a4-7275-4676-8a91-259707f0f625)
+
 
 ## Prerequisites
 1. Twitter APIs - To avail the Twitter APIs (Tweepy package), setup an tweeter account and get api credentials.
