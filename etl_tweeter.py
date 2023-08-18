@@ -7,10 +7,10 @@ import s3fs
 
 def run_etl():
     credentials = {}
-    credentials["consumer_key"] = "CrEg9EJCWM7c3HJPjct0rNtHW"
-    credentials["consumer_secret"] = "8WzH1d5EHMggrj5Kt93zrFPGAbciUXNNfOODf98BCcPhiqrJVz"
-    credentials["access_token"] = "1692087069911511040-08eDeT6ae8mBg6gjsuuTlqRKhZrbhQ"
-    credentials["access_token_secret"] = "nLPObrQTClmhR6PBZTqWcWXZ05C1P3xY9ClvbyGICSNy9"
+    credentials["consumer_key"] = ""
+    credentials["consumer_secret"] = ""
+    credentials["access_token"] = ""
+    credentials["access_token_secret"] = ""
     # Authenticate with Twitter API
     auth = tweepy.OAuthHandler(credentials["consumer_key"], credentials["consumer_secret"])
     auth.set_access_token(credentials["access_token"], credentials["access_token_secret"])
