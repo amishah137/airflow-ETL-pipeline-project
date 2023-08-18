@@ -1,5 +1,5 @@
 # airflow-ETL-pipeline-project
-This project extracts data using Twitter API, uses python to transform data, deploy the code on Airflow/EC2 and save the final result on Amazon S3.
+This project extracts user information using Twitter API, uses python to transform data, deploy the code on Airflow/EC2 and save the final result on Amazon S3.
 
 ## Prerequisites
 1. Twitter APIs - To avail the Twitter APIs (Tweepy package), setup an tweeter account and get api credentials.
@@ -30,4 +30,18 @@ This project extracts data using Twitter API, uses python to transform data, dep
     airflow standalone
     ```
     note down the username and password
-3. 
+3. Create AWS S3 bucket with name 'ami-airflow-etl-test' with EC2.
+4. Create IAM role with name 'ec2_s3_airflow_role'. (note: use underscore instead of hyphens)
+5. Associate it to our EC2 instance.
+6. Open a new terminal of EC2 instance.
+    ```
+    cd airflow
+    ```
+    ```
+    mkdir tweeter && cd tweeter
+    ```
+    Copy two files here the folder tweeter.
+7. Go to first terminal and restart the airflow.
+
+Go to Dashboard :
+
