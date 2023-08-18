@@ -67,3 +67,7 @@ This project extracts user information using Twitter API, uses python to transfo
   ![Screenshot from 2023-08-18 11-49-13](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/9057315d-d140-4151-9877-fde102fdcb48)
 
   ![Screenshot from 2023-08-18 11-49-43](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/008253eb-13da-48d3-8270-8de50b02925b)
+
+### After steps:
+* After completion of this excercise, Delete your EC2 and S3 instances.
+* Revoke the access token keys for Twitter API
