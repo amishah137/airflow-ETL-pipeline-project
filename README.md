@@ -43,5 +43,27 @@ This project extracts user information using Twitter API, uses python to transfo
     Copy two files here the folder tweeter.
 7. Go to first terminal and restart the airflow.
 
-Go to Dashboard :
 
+### Go to Dashboard :
+* Use Public-IPv4-DNS:8080 on web browser
+* Check console:
+  ![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/3f409ef0-e0bf-46c4-9937-bacf9f67381e)
+
+* Click on 'dag_tweeter'
+  ![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/a921d599-2687-42db-944e-bfe53faaa023)
+
+* Go to Graph
+  ![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/a7559cba-5a16-4b98-8a6c-8d7ffa17977f)
+
+* The node turns Green on successful execution
+  ![Screenshot from 2023-08-18 11-53-55](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/7833f30f-31ab-49dc-9823-77b4d3aa0aa6)
+
+* Click on the node --> Check logs
+  ![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/3acb2fee-85da-446f-bbda-d4164eb5720f)
+
+  ![image](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/88715a63-8545-4366-98f8-05dcd548d195)
+
+* Go to the AWS home --> S3 bucket
+  ![Screenshot from 2023-08-18 11-49-13](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/9057315d-d140-4151-9877-fde102fdcb48)
+
+  ![Screenshot from 2023-08-18 11-49-43](https://github.com/amishah137/airflow-ETL-pipeline-project/assets/11003645/008253eb-13da-48d3-8270-8de50b02925b)
