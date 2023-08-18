@@ -38,9 +38,9 @@ This project extracts user information using Twitter API, uses python to transfo
     cd airflow
     ```
     ```
-    mkdir tweeter && cd tweeter
+    mkdir tweeter_dag && cd tweeter_dag
     ```
-    Copy two files here the folder tweeter.
+    Copy two files 'dag_tweeter.py' and 'etl_tweeter.py' in the folder tweeter_dag.
 7. Go to first terminal and restart the airflow.
 
 
